@@ -647,3 +647,8 @@ span.param-type, .params td .param-type, .param-type dd {
   margin-left: -14px;
   margin-right: 5px;
 }
+
+/* Prevent overlapping line numbers in source code display */
+li > code {
+  min-height: 1em;
+}
